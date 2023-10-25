@@ -1,0 +1,9 @@
+#a_top_menu {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 5%;
+    font-size: 17px;
+}
+#a_top_menu:last-child{
+    padding-right: 0;
+}

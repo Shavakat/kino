@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.header_but {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header_nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
