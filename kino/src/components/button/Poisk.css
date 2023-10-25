@@ -1,0 +1,10 @@
+#b_poisk {
+    width: 55px;
+    height: 52px;
+    border-radius: 10px;
+    background: #ffffff;
+    border: none;
+    flex-shrink: 0;
+    cursor: pointer;
+
+}
