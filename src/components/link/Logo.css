@@ -1,0 +1,8 @@
+#logo_img {
+    margin-right: 6px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
