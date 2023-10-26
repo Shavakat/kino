@@ -1,16 +1,14 @@
 import { useState, useSyncExternalStore } from 'react'
 import './App.css'
 import Header from './Header'
-import Glava from './components/glava/Glava'
-import Line from './components/line/Line'
+import Header2 from './Header2'
 
 function App() {
 
   return (
     <>
       <Header />
-      <Glava />
-      <Line />
+      <Header2 />
     </>
   )
 }

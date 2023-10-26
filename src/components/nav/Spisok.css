@@ -1,0 +1,16 @@
+#a_container {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.35);
+    padding-right: 3%;
+    font-size: 15px;
+    font-weight: 700;
+    transition: color 0.5s;
+}
+
+#a_container:hover {
+    color: #fff;
+}
+
+#a_container:last-child{
+    padding-right: 0;
+}
