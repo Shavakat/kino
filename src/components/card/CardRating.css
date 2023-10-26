@@ -1,0 +1,17 @@
+.ratingCard {
+    background: #89CB36;
+    border-radius: 5px;
+    width: 62px;
+    height: 33px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+}

@@ -1,0 +1,29 @@
+#cardfilm {
+    margin-top: 50px;
+}
+
+.imgcard {
+    width: 340px;
+    height: 480px;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+.one_card {
+    width: 340px;
+    position: relative;
+}
+
+.name_film {
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.category_film {
+    margin-top: 5px;
+    color: #F2F60F;
+    font-size: 15px;
+    font-weight: 400;
+}
