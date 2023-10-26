@@ -1,4 +1,15 @@
 #header_cont {
+    margin-top: 25px;
     display: flex;
     align-items: center;
+}
+
+.line {
+    padding-left: 150px;
+}
+
+.spisok {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
 }
