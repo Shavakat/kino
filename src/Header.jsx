@@ -1,8 +1,8 @@
 import { useState, useSyncExternalStore } from 'react'
-import Vhod from './button/Vhod.jsx'
-import Poisk from './button/Poisk.jsx'
-import Logo from './link/Logo'
-import Nav from './nav/Nav'
+import Vhod from './components/button/Vhod.jsx'
+import Poisk from './components/button/Poisk.jsx'
+import Logo from './components/link/Logo.jsx'
+import Nav from './components/nav/Nav.jsx'
 import './Header.css'
 
 function Header() {
