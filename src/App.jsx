@@ -2,6 +2,7 @@ import { useState, useSyncExternalStore } from 'react'
 import './App.css'
 import Header from './Header'
 import Glava from './components/glava/Glava'
+import Line from './components/line/Line'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <Header />
       <Glava />
+      <Line />
     </>
   )
 }
