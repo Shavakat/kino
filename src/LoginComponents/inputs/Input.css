@@ -1,0 +1,8 @@
+#input_max {
+    width: 422px;
+    height: 67px;
+    flex-shrink: 0;   
+    border-radius: 10px;
+    background: #1E2538;
+    border: none;
+}
