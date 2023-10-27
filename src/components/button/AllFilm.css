@@ -1,0 +1,12 @@
+#all_film_btn {
+    width: 200px;
+    height: 71px;
+    flex-shrink: 0;
+    background: none;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}

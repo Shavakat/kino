@@ -13,8 +13,11 @@ body {
 .all_card {
     display: grid;
     justify-content: space-between;
-    grid-template-columns: repeat(auto-fill,minmax(340px, 1fr));
-   
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+}
 
-
+.btn_all_film {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
