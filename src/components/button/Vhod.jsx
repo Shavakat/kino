@@ -6,7 +6,7 @@ const Vhod = () => {
   const navigate = useNavigate();
   
   return (
-    <button onClick={() => navigate("/Login/")} id='b_vhod' type="submit">Войти</button>
+    <button onClick={() => navigate("/Login")} id='b_vhod' type="submit">Войти</button>
   )
 }
 
