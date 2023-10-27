@@ -1,0 +1,10 @@
+.TT_nav_r {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.TT_nav {
+    display: flex;
+    justify-content: space-between;
+}

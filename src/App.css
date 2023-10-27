@@ -13,11 +13,16 @@ body {
 .all_card {
     display: grid;
     justify-content: space-between;
+    justify-items: center;
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
 }
 
 .btn_all_film {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
+}
+
+.TT_app{
     margin-top: 50px;
 }
