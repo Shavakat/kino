@@ -1,10 +1,12 @@
 import React from 'react'
+import { useNavigate } from "react-router-dom";
 import './Vhod.css'
 
 const Vhod = () => {
+  const navigate = useNavigate();
   
   return (
-    <button id='b_vhod' type="submit">Войти</button>
+    <button onClick={() => navigate("/Login/")} id='b_vhod' type="submit">Войти</button>
   )
 }
 
