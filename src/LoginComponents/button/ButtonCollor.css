@@ -1,0 +1,11 @@
+#but_clr{
+    width: 422px;
+    height: 55px;
+    border-radius: 10px;
+    background: #242f4d;
+    border: none;
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 166.5%; 
+}

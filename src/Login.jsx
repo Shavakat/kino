@@ -3,6 +3,8 @@ import './Login.css'
 import TitleLog from './LoginComponents/title/TitleLog'
 import Input from './LoginComponents/inputs/Input'
 import Logo from './components/link/Logo.jsx'
+import Button from './LoginComponents/button/ButtonYellow.jsx'
+import ButtonCollor from './LoginComponents/button/ButtonCollor.jsx'
 
 
 function Login() {
@@ -14,6 +16,8 @@ function Login() {
       <div className="inptu">
         <Input placeholder={'Логин, почта или телефон'} type={'text'} />
         <Input placeholder={'Ваш пароль'} type={'password'} />
+        <Button text={'Вход'}/>
+        <ButtonCollor text={'Зарегистрироваться'}/>
       </div>
     </div>
   )
