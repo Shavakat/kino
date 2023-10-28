@@ -5,6 +5,7 @@ import Input from './LoginComponents/inputs/Input'
 import Logo from './components/link/Logo.jsx'
 import Button from './LoginComponents/button/ButtonYellow.jsx'
 import ButtonCollor from './LoginComponents/button/ButtonCollor.jsx'
+import { NavLink } from 'react-router-dom'
 
 
 function Login() {
@@ -19,6 +20,7 @@ function Login() {
         <Button text={'Вход'}/>
         <ButtonCollor text={'Зарегистрироваться'}/>
       </div>
+      
     </div>
   )
 }
