@@ -1,0 +1,13 @@
+.inptu{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.Login_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+    margin-top: 250px;
+}

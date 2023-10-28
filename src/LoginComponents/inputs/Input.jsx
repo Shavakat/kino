@@ -1,10 +1,15 @@
 import React from 'react'
 import './Input.css'
 
-const input = () => {
+const Input = ({
+  value,
+  onChange,
+  placeholder,
+  type
+}) => {
   return (
-    <input id='input_max' type='email'></input>
+    <input value={value} onCange={onChange} placeholder={placeholder} id='input_max' type={type}></input>
   )
 }
 
-export default input
+export default Input
