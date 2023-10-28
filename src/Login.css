@@ -11,3 +11,11 @@
     gap: 34px;
     margin-top: 250px;
 }
+#link_vhod{
+    color: #3657CB;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 166.5%;
+    text-decoration-line: underline;
+}

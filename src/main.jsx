@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import Login from './Login.jsx';
+import Login from './Login.jsx'
+import Reg from './Reg.jsx'
 import './index.css'
 
 
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/Login",
     element: <Login />,
+  },
+  {
+    path: "/Reg",
+    element: <Reg />,
   },
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
