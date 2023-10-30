@@ -1,0 +1,13 @@
+#input_min {
+    width: 206px;
+    height: 67px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #242f4d;
+    border: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 166.5%;
+    padding: 0 10px;
+}

@@ -6,7 +6,7 @@ import Logo from './components/link/Logo.jsx'
 import Button from './LoginComponents/button/ButtonYellow.jsx'
 import ButtonCollor from './LoginComponents/button/ButtonCollor.jsx'
 import { Link } from 'react-router-dom'
-import { useNavigate } from "react-router-dom";
+import { useNavigate} from "react-router-dom";
 
 
 function Login() {
@@ -21,7 +21,7 @@ function Login() {
         <Button text={'Вход'}/>
         <div onClick={() => navigate("/Reg")}><ButtonCollor text={'Зарегистрироваться'} /></div>
       </div>
-      <Link id='link_vhod' to='/'>Восстановить пароль</Link>
+      <Link id='link_vhod' to='/Vost'>Восстановить пароль</Link>
     </div>
   )
 }
