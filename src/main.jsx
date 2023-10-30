@@ -4,6 +4,7 @@ import App from './App.jsx'
 import Login from './Login.jsx'
 import Reg from './Reg.jsx'
 import Vost from './Vost.jsx'
+import VostPsw from './VostPsw.jsx'
 import './index.css'
 
 
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "/Vost",
     element: <Vost />,
+  },
+  {
+    path: "/VostPsw",
+    element: <VostPsw />,
   },
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(

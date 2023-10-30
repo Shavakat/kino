@@ -5,8 +5,10 @@ import Input from './LoginComponents/inputs/Input'
 import InputMin from './LoginComponents/inputs/InputMin'
 import Button from './LoginComponents/button/ButtonYellow.jsx'
 import ButtonMin from './LoginComponents/button/ButtonMin.jsx'
+import { useNavigate} from "react-router-dom";
 
 function Vost() {
+    const navigate = useNavigate();
   return ( <>
   <div className='Login_item'>
       <Logo />
@@ -17,7 +19,7 @@ function Vost() {
             <ButtonMin text={'Отправить'}/>
             <InputMin placeholder={'Полученный код'} type={'text'} />
         </div>
-        <Button text={'Далее'}/>
+        <div onClick={() => navigate("/VostPsw")}><Button text={'Далее'}/></div>
       </div>
     </div>
 

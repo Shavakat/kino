@@ -1,0 +1,17 @@
+.checkbox_txt {
+    display: flex;
+    gap: 9px;
+    width: 422px;
+}
+
+.p_reg {
+    color: #FFF;
+    font-size: 13.3px;
+    font-weight: 400;
+    line-height: 140.2%;
+}
+
+.span_reg {
+    color: #F2F60F;
+    text-decoration-line: underline;
+}
