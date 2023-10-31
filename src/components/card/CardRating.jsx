@@ -1,9 +1,14 @@
 import React from 'react'
+import { useState, useSyncExternalStore, useEffect } from 'react'
 import './CardRating.css'
 
-const CardRating = () => {
+const CardRating = ({
+  averageRating
+}) => {
   return (
-    <div className='ratingCard'>6.70</div>
+    <>
+          <div className='ratingCard'>{averageRating}</div>
+    </>
   )
 }
 
