@@ -1,4 +1,13 @@
 .item_under_title {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 1430px;
+    margin: 20px auto 0 auto;
+}
+
+.like_dlike {
+    display: flex;
+    gap: 10px;
+    
 }

@@ -3,10 +3,10 @@ import './Like.css'
 
 const Like = () => {
     return (
-<div className="like">
-    <img src="./assets/Like.svg" alt="" />
-    <p id='id_like'>0</p>
-</div>
+        <div className="like">
+            <img src="src/img/Like.png" alt="" />
+            <p id='id_like'>0</p>
+        </div>
     )
 }
 
