@@ -1,0 +1,9 @@
+#id_like, #id_dlike {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+}
+.like {
+    display: flex;
+    
+}

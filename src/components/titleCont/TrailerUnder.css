@@ -1,0 +1,4 @@
+.item_under_title {
+    display: flex;
+    justify-content: space-between;
+}

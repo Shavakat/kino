@@ -6,6 +6,7 @@ import Card from './components/card/Card'
 import AllFilm from './components/button/AllFilm'
 import TrailerTitle from './components/titleCont/TrailerTitle.jsx'
 import Movies from './components/movies/Movies'
+import TrailerUnder from './components/titleCont/TrailerUnder'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
       <div className="btn_all_film"><AllFilm /></div>
       <div className='TT_app'><TrailerTitle /></div>
       <div className="movies_app"><Movies /></div>
+      <TrailerUnder/>
     </>
   )
 }
