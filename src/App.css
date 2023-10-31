@@ -31,3 +31,10 @@ body {
 .movies_app{
     margin-top: 80px;
 }
+
+.moviesmin {
+    display: flex;
+    justify-content: space-between;
+    width: 1430px;
+    margin: 20px auto 0 auto;;
+}

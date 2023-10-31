@@ -7,6 +7,7 @@ import AllFilm from './components/button/AllFilm'
 import TrailerTitle from './components/titleCont/TrailerTitle.jsx'
 import Movies from './components/movies/Movies'
 import TrailerUnder from './components/titleCont/TrailerUnder'
+import Moviesmin from './components/movies/Moviesmin'
 
 function App() {
 
@@ -28,6 +29,12 @@ function App() {
       <div className='TT_app'><TrailerTitle /></div>
       <div className="movies_app"><Movies /></div>
       <TrailerUnder/>
+      <div className="moviesmin">
+        <Moviesmin/>
+        <Moviesmin/>
+        <Moviesmin/>
+        <Moviesmin/>
+      </div>
     </>
   )
 }
