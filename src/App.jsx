@@ -5,10 +5,8 @@ import Header2 from './Header2'
 import Card from './components/card/Card'
 import AllFilm from './components/button/AllFilm'
 import TrailerTitle from './components/titleCont/TrailerTitle.jsx'
-import Movies from './components/movies/Movies'
-import TrailerUnder from './components/titleCont/TrailerUnder'
 import Moviesmin from './components/movies/Moviesmin'
-import Carusel from './slider/Carusel'
+
 
 
 function App() {
@@ -23,9 +21,7 @@ function App() {
       </div>
       <div className="btn_all_film"><AllFilm /></div>
       <div className='TT_app'><TrailerTitle /></div>
-      <div className="movies_app"><Movies /></div>
-      <TrailerUnder />
-      <Carusel />
+      <div className="movies_app"><Moviesmin /></div>
     </>
   )
 }

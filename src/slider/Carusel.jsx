@@ -9,7 +9,7 @@ const Carusel = () => {
       gap: '20px',
       overflowX: 'scroll'
     }}>
-      <Moviesmin />
+<Moviesmin />
     </div>
   )
 }
