@@ -1,5 +1,8 @@
 .trailer_img {
     border-radius: 10px;
+    width: 1561px;
+    height: 769px;
+    object-fit: cover;
 }
 
 .trailer_img_item {
@@ -20,4 +23,9 @@
 
 .trailer_img_play:hover {
     opacity: .6;
+}
+
+.triler_cont {
+    width: 1425px;
+    margin: 0 auto;
 }
