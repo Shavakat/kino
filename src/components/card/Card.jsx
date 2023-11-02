@@ -16,8 +16,7 @@ const Card = () => {
     return (
         <>
             {card.map((e) => {
-                return <>
-                    <div id='cardfilm'>
+                return  <div id='cardfilm'>
                         <div className='one_card'>
                             <CardRating averageRating={e.averageRating} />
                             <img className='imgcard' src={e.urlIcon} alt="" />
@@ -25,7 +24,7 @@ const Card = () => {
                         <p className="name_film">{e.localName}</p>
                         <p className="category_film">{e.genres}</p>
                     </div>
-                </>
+                
             })}
         </>
     )
