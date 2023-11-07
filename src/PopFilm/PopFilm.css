@@ -1,0 +1,5 @@
+.popfilm_minfilm{
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+}

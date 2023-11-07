@@ -8,7 +8,7 @@ const Moviesmin = () => {
 
 
     const [card, setCard] = useState([]);
-    
+
     const [selected, setSelected] = useState(0)
 
 
